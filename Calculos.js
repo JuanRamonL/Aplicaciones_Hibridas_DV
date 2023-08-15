@@ -12,7 +12,7 @@ function sumas(num1, num2){
 
 
 /**
- * Devuelve el resultado de la  division de dos numeros.
+ * Devuelve el resultado de la  division de dos numeros.   
  * @param num1 numero a dividir. 
  * @param num2 numero divisor.
  */
