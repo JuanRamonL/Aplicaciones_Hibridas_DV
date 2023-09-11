@@ -10,7 +10,7 @@ var contactos = {
   // Puedes agregar más contactos aquí
 };
 
-function agreagrContacto(nombre, telefono, email){
+function agregarContacto(nombre, telefono, email){
     if (validaciones.validarTelefono(telefono) == true){
     }else{
         return console.log(`El numero ${telefono} no es valido`)
@@ -34,5 +34,5 @@ function agreagrContacto(nombre, telefono, email){
 
 export default {
     contactos,
-    agreagrContacto,
+    agregarContacto,
 }
